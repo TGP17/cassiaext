@@ -32,11 +32,10 @@ jobs:
             ${{ runner.os }}-android-
       - name: Deps
         run: |
-          sudo add-apt-repository -y ppa:theofficialgman/gpu-tools
           sudo apt-get update -y
-          sudo apt-get install ccache glslang-dev glslang-tools apksigner -y
+          sudo apt-get install ccache apksigner -y
       - name: Apply patches
-        run: cd Deps && ./apply-patches.sh
+        run: cd deps && ./apply-patches.sh
       - name: Build
         run: chmod a+x ./.ci/android.sh && JAVA_HOME=$JAVA_HOME_17_X64 ./.ci/android.sh
         env:
