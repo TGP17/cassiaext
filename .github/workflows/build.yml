@@ -35,7 +35,7 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install ccache apksigner -y
       - name: Apply patches
-        run: cd deps && python apply-patches.py
+        run: cd deps && python reset-deps.py && python apply-patches.py
       - name: Build
         run: chmod a+x ./.ci/android.sh && JAVA_HOME=$JAVA_HOME_17_X64 ./.ci/android.sh
         env:
