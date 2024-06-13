@@ -12,7 +12,7 @@
 	url = https://gitlab.freedesktop.org/xorg/lib/libxcb.git
 [submodule "deps/xcbproto"]
 	path = deps/xcbproto
-	url = https://gitlab.freedesktop.org/xorg/proto/xcbproto.git
+	url = https://gitlab.freedesktop.org/xorg/proto/xcbproto/-/tree/xcb-proto-1.16.0/
 [submodule "deps/libxau"]
 	path = deps/libxau
 	url = https://gitlab.freedesktop.org/xorg/lib/libxau.git
