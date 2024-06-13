@@ -76,8 +76,9 @@ for dep in deps:
             print(f"  - \"{patch.subject}\"")
 
 # Ask for confirmation
-if (input("Are you sure you want to apply all patches? (y/n) ") != "y"):
-    exit(0)
+# Commented out for GitHub Actions
+#if (input("Are you sure you want to apply all patches? (y/n) ") != "y"):
+#    exit(0)
 
 # Apply all patches
 for dep in deps:
