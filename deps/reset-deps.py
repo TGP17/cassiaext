@@ -41,8 +41,9 @@ for dep in deps:
     print(f"* {dep.name} @ {dep.tag}")
 
 # Ask for confirmation
-if (input("Are you sure you want to reset all dependencies? (y/n) ") != "y"):
-    exit(0)
+# Commented out for GitHub Actions
+#if (input("Are you sure you want to reset all dependencies? (y/n) ") != "y"):
+#    exit(0)
 
 # Reset all dependencies
 for dep in deps:
