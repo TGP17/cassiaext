@@ -1,15 +1,6 @@
 [submodule "gamescope"]
 	path = gamescope
 	url = git@github.com:ValveSoftware/gamescope.git
-[submodule "deps/xorgproto"]
-	path = deps/xorgproto
-	url = https://gitlab.freedesktop.org/xorg/proto/xorgproto.git
-[submodule "deps/xcbproto"]
-	path = deps/xcbproto
-	url = https://gitlab.freedesktop.org/xorg/proto/xcbproto.git
-[submodule "deps/wayland"]
-	path = deps/wayland
-	url = https://gitlab.freedesktop.org/wayland/wayland.git
 [submodule "deps/libffi"]
 	path = deps/libffi
 	url = https://github.com/libffi/libffi.git
@@ -19,18 +10,9 @@
 [submodule "deps/libxkbcommon"]
 	path = deps/libxkbcommon
 	url = https://github.com/xkbcommon/libxkbcommon.git
-[submodule "deps/wayland-protocols"]
-	path = deps/wayland-protocols
-	url = https://gitlab.freedesktop.org/wayland/wayland-protocols.git
 [submodule "deps/SDL"]
 	path = deps/SDL
 	url = https://github.com/libsdl-org/SDL.git
-[submodule "deps/pixman"]
-	path = deps/pixman
-	url = https://gitlab.freedesktop.org/pixman/pixman.git
-[submodule "deps/util"]
-	path = deps/util
-	url = https://gitlab.freedesktop.org/xorg/font/util.git
 [submodule "deps/libandroid-shmem"]
 	path = deps/libandroid-shmem
 	url = https://github.com/termux/libandroid-shmem.git
@@ -40,9 +22,3 @@
 [submodule "xserver"]
 	path = xserver
 	url = git@github.com:cassia-org/xserver.git
-[submodule "deps/wlroots"]
-	path = deps/wlroots
-	url = https://gitlab.freedesktop.org/wlroots/wlroots.git
-[submodule "deps/xkeyboard-config"]
-	path = deps/xkeyboard-config
-	url = https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config.git
