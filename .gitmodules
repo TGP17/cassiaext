@@ -22,3 +22,6 @@
 [submodule "xserver"]
 	path = xserver
 	url = git@github.com:cassia-org/xserver.git
+[submodule "deps/xcbproto"]
+	path = deps/xcbproto
+	url = https://gitlab.freedesktop.org/xorg/proto/xcbproto.git
